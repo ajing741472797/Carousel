@@ -1,18 +1,29 @@
+
 .window{
     width:300px;
     overflow:hidden;
     margin:0 auto;
+    margin-top: 60px;
+    
   }
   .images{
-    
     display: flex;
     align-items: flex-start;
     transition: all 0.5s;
   }
   #buttons{
-      margin: 20px auto;
+      margin: 10px auto;
       text-align: center;
   }
   .red{
-      color: red;
+      color: white;
+      background: #90d7ec;
+  }
+  button{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: none;
+      color: white;
+      outline:none;
   }
